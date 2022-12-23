@@ -5,10 +5,10 @@ import 'package:world_time/pages/loading.dart';
 
 void main() => runApp(MaterialApp(
   // creating first page route
-  initialRoute: '/home',
+  initialRoute: '/',
   // create page route map
   routes: {
-    '/': (context) => const Loading(),
+    '/': (context) => Loading(),
     '/home': (context) => Home(),
     '/location': (context) => ChooseLocation(),
   },

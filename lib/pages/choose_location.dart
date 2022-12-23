@@ -7,12 +7,7 @@ class ChooseLocation extends StatefulWidget {
 
 class _ChooseLocationState extends State<ChooseLocation> {
 
-  int counter =0;
-  @override       // <-- created initState function
-  void initState() {
-    super.initState();
-    print('initState function ran');
-  }
+  int counter= 0;
 
   @override
   Widget build(BuildContext context) {
